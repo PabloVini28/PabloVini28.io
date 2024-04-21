@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cac300;
+    touch-action: manipulation;  
+}
+
+.FrasePedro{
+    text-decoration: none;
+    width: 1828px;
+    margin: 30px;
+    margin-top: 3px;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 35px;
+    font-style: italic;
+    border-bottom: 10px;
+    border-color: black;
+    position: relative; 
+    border-style: solid black;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: right;
+    margin-right:100px ;
+    
+}
+.cabecalho::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%; 
+    height: 5px; 
+    background-color: beige; 
+}
+
+.cabecalho{
+    width: 1800px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 22px;
+    font-style: italic;
+    position: relative;
+
+}
+.cabecalho::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: auto;
+    height: 5px; 
+    background-color: beige; 
+}
+
+.mensagem{
+    width: 1150px;
+    margin-left: 460px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;
+    font-style: italic;
+    position: relative;
+    background-color: beige;
+}
+
+.menu > a{
+    color:black;
+    text-decoration:dotted;
+    margin-left: 10px;
+}
+
+.menu {
+    height: 500px;
+    width: 440px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 110px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 60px;
+    font-family: Copperplate, Papyrus, fantasy;
+    position: relative;
+    background-color: beige;
+}
+
+.conteudo {
+    width: 1550px;
+    height: 500px;
+    margin: 10px;
+    margin-left: 50px;
+    right: 10px;;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align:left;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 22px;
+    font-style: italic;
+    position: relative;
+    background-color: beige;
+}
+
+.conteudo img{
+    margin-left: 1095px;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+
+.conteudo h1{
+    margin-left: 30px; 
+}
+
+.container {
+    display: flex;
+}
+
+.rodape {
+    position:fixed;
+    bottom: 0;
+    left: 39px; 
+    width: 1800px;
+    margin-bottom: 5px;
+    text-align: center; 
+    height: 50px; 
+    background-color: beige;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.rodape h1{
+    margin-top: 7px;
+}
+
+.conteudo h3{
+    margin-left: 1025px;
+    margin-top: 10px;
+    width: 350px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteudo h4{
+    margin-left: 1025px;
+    margin-top: -80px;
+    width: 350px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.redessociais {
+    position: absolute;
+    margin-top: 260px;
+    top: 0;
+    left: 25px;
+    width: 1000px;
+    font-size: 12px;
+}
+
+.redessociais h1{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.redessociais img{
+    width: 25px;
+    margin-left: 22px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textomaior {
+    font-size: 14px;
+    margin-left: 33px;
+    margin-top: -200px;
+    font-family: Copperplate, Papyrus, fantasy;
+    width: 1000px;
+}
+
+
+
+
