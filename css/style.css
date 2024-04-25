@@ -1,28 +1,122 @@
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1800px) {
+    
     body{
         background-color: #E6C700;
         font-family: Corbel, sans-serif;
+        border: 2px solid beige;
+        padding: 1%;
+        font-style: italic;
     }
-    /* Hide the menu by default */
-.menu ul {
-    display: none;
-}
 
-/* Style for the menu toggle button */
-.menu-toggle {
-    display: block;
-    text-align: center;
-    cursor: pointer;
-}
+    header h1{
+        font-size: 40px;
+        text-align: center;
+        width: 90%; 
+        margin-left: 3.7%;
+        margin-top: 0%;
+        background-color: beige;
+        padding: 1%;
+        border-radius: 10%;
+    }
 
-/* Style for the menu items */
-.menu li {
-    display: block;
-    text-align: center;
-    padding: 10px;
-}
+    header h3 {
+        font-size: 32px;
+        text-align: center;
+        width: 100%; 
+    }
+
+    header h4 {
+        font-size: 21px;
+        text-align: center;
+        width: 25%; 
+        margin-left: 36%;
+        margin-top: -1.5%;
+        background-color: beige;
+        border-radius: 10%;
+    }
+
+    .dp-menu ul {
+        list-style-type:none;
+        padding: 1%;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 3%;
+        border: 5px solid white;
+        margin-right: 3%;
+    }
+
+    .dp-menu ul li{
+        display:inline-block;
+        text-align: center;
+        background-color: beige;
+        margin-right: 4%;
+        margin-left: 3%;
+        border-radius: 10px;
+        margin-bottom: 0.5%;
+        margin-top: 0.5%;
+    }
+
+    .dp-menu ul li a{
+        color: black;
+        text-decoration: underline;
+        padding: 30px;  
+    }
+    .dp-menu a{
+        color: black;
+        text-decoration: underline;
+        padding: 10px;  
+    }
+
+
+    .textomaior h1 {
+        font-size: 40px;
+        text-align: center;
+        border-radius: 10%;
+        width: 100%;
+        background-color: beige;
+        
+    }
+
+    .textomaior p{
+        font-size: 25px;
+        border-radius: 1%;
+        padding: 1%;
+        width: 98%;
+        background-color: beige;
+    }
+
+    .papa h1{
+        text-align: center;
+        background-color: beige;
+        padding: 1%;
+        border-radius: 10%;
+    }
+
+    .papa img{
+        width: 35%;
+        height: 35%;
+        margin-left: 32.3%
+    }
+
+    .papa p{
+        font-size: 15px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: beige;
+    }
+
+    .bypablo {
+        text-align: center;
+        font-size: 15px;
+        background-color: beige;
+        margin-top: 5%;
+        margin-bottom: -5%
+    }
    
+
+
     
 }
 
@@ -41,6 +135,7 @@
         text-align: center;
         width: 98%; 
         margin-top: 5%;
+        margin-left: 0.0%;
         background-color: beige;
         padding: 1%;
         border-radius: 10%;
@@ -55,7 +150,8 @@
     header h4 {
         font-size: 14px;
         text-align: center;
-        width: 100%; 
+        width: 65%; 
+        margin-left: 16%;
         background-color: beige;
         border-radius: 10%;
     }
@@ -68,6 +164,8 @@
 
     .dp-menu ul li{
         display:inline-block;
+        background-color: beige;
+        border-radius: 10%;
     }
 
     .dp-menu ul li a{
