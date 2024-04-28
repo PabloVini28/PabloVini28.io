@@ -206,7 +206,6 @@
         margin-left: 1%;
         font-family: Papyrus, fantasy;
         color: white;
-        text-align: center;
         margin-top: -8%;
     }
 
@@ -234,11 +233,9 @@
     }
 
     .papa #nomepapa{
-        color:white;
-        width: 100%;
+        color:rgb(253, 253, 253);
         margin-left: 15%;
         margin-top: 0%;
-        word-spacing: 105px;
         font-family: Papyrus, fantasy;
     }
 
@@ -252,80 +249,126 @@
         font-family: Papyrus, fantasy;
     }
 
-    .papa img {
+    #imgpapa{
         width: 35%;
-        height: 35%;
-        margin-left: 5.3%
+        height: auto;
+        height: 25%;
+        margin-left: 5%;
+        position: relative;
+        top: -60px;
     }
 
-    .papa #cardeais{
+    #cardeais{
         width: 38%;
-        margin-left: 14.5%
+        margin-left: 15.5%;
+        position: relative;
+        top: -60px;
     }
 
-    .nomepapa {
-        font-size: 12px;
-        text-align: center;
-        border-radius: 10%;
+    #nomepapa {
+        font-size: 20px;
+        text-align: left;
         padding: 1%;
-        background-color: white;
         width: 30%;
-        margin-left: 7%;
     }
+
+    #titulopapa{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        width: 30%;
+        margin-left: 6.5%;
+        background-color: white;
+        position: relative;
+        top: -60px;
+    }
+
 
     #nomecardeal {
         font-size: 20px;
         text-align: center;
         border-radius: 10%;
-        padding: 1%;
         background-color: white;
         width: 30%;
         margin-left: 59%;
-        margin-top: -14.3%;
+        position: relative;
+        top: -111px;
     }
 
     #nomebispo{
         color:white;
-        width: 100%;
-        margin-left: 13%;
+        margin-left: 14%;
+        font-size: 20px;
         margin-top: 0%;
-        word-spacing: 79px;
         font-family: Papyrus, fantasy;
+        position: relative;
+        top:-77px;
     }
 
-    .nomebispodomjose {
-        font-size: 15px;
+    #nomebispodomjose {
+        font-size: 20px;
         text-align: center;
         border-radius: 10%;
         padding: 1%;
         background-color: white;
         width: 35%;
-        margin-left: 4.5%;
-        margin-top: 12%;
+        margin-left: 5.5%;
+        position: relative;
+        top: -120px;
+    }
 
+    #tituloarcebispo{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-family: Papyrus, fantasy;
+        margin-left: 49%;
+        position: relative;
+        top: -124px;
+    }
+
+    #titulocardeal{
+        font-size: 20px;
+        color: white;
+        text-align: right;
+        padding: 1%;
+        font-family: Papyrus, fantasy;
+        width: 30%;
+        margin-left: 55%;
+        position: relative;
+        top: -55px;
     }
 
     #nomearcebispo {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         border-radius: 10%;
         padding: 1%;
         background-color: white;
-        width: 37%;
-        margin-left: 55.5%;
-        margin-top: -11%;
+        width: 33%;
+        margin-left: 57.5%;
+        position: relative;
+        top: -179px;
     }
 
     #bispoimg{
         width: 35%;
         height: 25%;
-        margin-left: 6.3%
+        margin-left: 6.3%;
+        margin-top: -1%;
+        position: relative;
+        top: -118px;
     }
 
     #arcebispo{
         width: 35%;
         margin-left: 15%;
-        margin-top: -50%;
+        position: relative;
+        top: -118px;
+    }
+
+    .presbiteros p{
+        margin-top: 7%;
     }
 
 
