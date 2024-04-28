@@ -33,8 +33,8 @@
          </ul>
     </nav>
 
-    <div>
-        nome do visitante
+    <div id="nomevisitante">
+        
     </div>
 
     <div class="titulo">
@@ -42,6 +42,36 @@
             <h2>Aqui você encontrará conhecimento sobre a Fé Católica</h2>
             <p>O anjo do senhor anunciou a Maria e ela concebeu do Espírito Santo - Lucas 1:28</p>
     </div>
+
+    <script>
+
+        function verificarNomeSalvo() {
+            var nomeSalvo = localStorage.getItem("nomeVisitante");
+            if (nomeSalvo) {
+                exibirNome(nomeSalvo);
+            } else {
+                solicitarNome();
+            }
+        }
+
+        function solicitarNome() {
+            var nome = prompt("Qual o seu nome ?");
+            if (nome) {
+                localStorage.setItem("nomeVisitante", nome);
+                exibirNome(nome);
+            }
+        }
+
+        function exibirNome(nome) {
+            document.getElementById("nomevisitante").innerHTML = "Olá, meu/minha irmã " + nome;
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            verificarNomeSalvo();
+        });
+
+    </script>
+
 </body>
 
     <body>
@@ -110,6 +140,10 @@
 
             <p id="nomereligioso"><b>Freiras</b></p>
             <p id="nomeleigo"><b>Fiéis </b></p>
+
+        </div>
+
+        <div id="bordaleigos">
 
         </div>
 

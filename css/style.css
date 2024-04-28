@@ -190,6 +190,18 @@
         font-family: Papyrus,fantasy;    
     }
 
+    .dp-menu a:hover {
+        color: rgb(253, 253, 253);
+    }
+
+    #nomevisitante{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        font-family: Papyrus, fantasy;
+        margin-top: 5%;
+    }
+
     .titulo h1 {
         text-align: center;
         font-size: 33px;
@@ -202,9 +214,10 @@
     }
 
     .titulo h2 {
-        font-size: 16px;
+        font-size: 17px;
         margin-left: 1%;
         font-family: Papyrus, fantasy;
+        text-align: center;
         color: white;
         margin-top: -8%;
     }
@@ -373,9 +386,10 @@
 
     #bordapadre{
         border-top: 2px solid white;
-        width: 100%;
+        width: 98%;
         position: relative;
         top: -138px;
+        border-style: groove;
     }
 
     #titulopadre{
@@ -496,7 +510,7 @@
         width: 29%;
         margin-left: 8%;
         position: relative;
-        top: -256px;
+        top: -253px;
     }
 
     #nomeleigo{
@@ -509,6 +523,15 @@
         margin-left: 58%;
         position: relative;
         top: -306px;
+    }
+
+    #bordaleigos{
+        border-top: 2px solid white;
+        width: 98%;
+        position: relative;
+        top: -276px;
+        font-family: Papyrus, fantasy;
+        border-style:groove ;
     }
 
     .bypablo {
