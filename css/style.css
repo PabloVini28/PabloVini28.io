@@ -276,8 +276,8 @@
         font-size: 20px;
         color: rgb(0, 0, 0);
         text-align: center;
-        width: 30%;
-        margin-left: 6.5%;
+        width: 34%;
+        margin-left: 4.5%;
         background-color: white;
         position: relative;
         top: -60px;
@@ -289,8 +289,8 @@
         text-align: center;
         border-radius: 10%;
         background-color: white;
-        width: 30%;
-        margin-left: 59%;
+        width: 36.5%;
+        margin-left: 56%;
         position: relative;
         top: -111px;
     }
@@ -311,7 +311,7 @@
         border-radius: 10%;
         padding: 1%;
         background-color: white;
-        width: 35%;
+        width: 34%;
         margin-left: 5.5%;
         position: relative;
         top: -120px;
@@ -334,7 +334,7 @@
         padding: 1%;
         font-family: Papyrus, fantasy;
         width: 30%;
-        margin-left: 55%;
+        margin-left: 55.7%;
         position: relative;
         top: -55px;
     }
@@ -371,6 +371,145 @@
         margin-top: 7%;
     }
 
+    #bordapadre{
+        border-top: 2px solid white;
+        width: 100%;
+        position: relative;
+        top: -138px;
+    }
+
+    #titulopadre{
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        font-family: Papyrus, fantasy;
+        margin-left: 15%;
+        position: relative;
+        top: -124px;
+    
+    }
+
+    #titulodiacono{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-family: Papyrus, fantasy;
+        margin-left: 51%;
+        position: relative;
+        top: -170px;
+    
+    }
+
+    #padreimg {
+        width: 30%;
+        margin-left: 8.3%;
+        margin-top: -1%;
+        position: relative;
+        top: -168px;
+    }
+
+    #nomepadre {
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: white;
+        width: 32%;
+        margin-left: 7%;
+        position: relative;
+        top: -190px;
+
+    }
+
+    #diaconoimg{
+        width: 30%;
+        margin-left: 22%;
+        position: relative;
+        top: -167px;
+    }
+
+    #data{
+        font-size: 11px;
+        color: white;
+        text-align: left;
+        margin-left: 74%;
+        position: relative;
+        top: -175px;
+    }
+
+    #nomediacono{
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: white;
+        width: 30%;
+        margin-left: 60%;
+        position: relative;
+        top: -243px;
+    
+    }
+
+    #tituloreligioso{
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        font-family: Papyrus, fantasy;
+        margin-left: 12%;
+        position: relative;
+        top: -210px;
+    }
+
+    #tituloleigos{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-family: Papyrus, fantasy;
+        margin-left: 49%;
+        position: relative;
+        top: -256px;
+    
+    }
+
+    #religiosoimg{
+        width: 30%;
+        margin-left: 8.3%;
+        margin-top: -1%;
+        position: relative;
+        top: -254px;
+    }
+
+    #leigoimg{
+        font-size: 20px;
+        width: 35%;
+        margin-left: 19%;
+        position: relative;
+        top: -254px;
+    }
+
+    #nomereligioso{
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: white;
+        width: 29%;
+        margin-left: 8%;
+        position: relative;
+        top: -256px;
+    }
+
+    #nomeleigo{
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1%;
+        background-color: white;
+        width: 32%;
+        margin-left: 58%;
+        position: relative;
+        top: -306px;
+    }
 
     .bypablo {
         text-align: center;
