@@ -26,7 +26,7 @@
         position: relative;
     }
 
-    .espacamento span{
+    .espacamento h3 span{
         margin-right: 3px;
     }
     
@@ -50,7 +50,7 @@
         text-align: left;
         margin-left: 2%;
         margin-top: 6%;
-        width: 95%;
+        width: 96%;
         position: relative; 
         z-index: 1; 
     }
@@ -153,31 +153,9 @@
         padding: 1%;
         background-color: white;
         border-radius: 1%;
+        
     }
 
-    #bordaacimadopadrepaulo{
-        border-top: 2px solid white;
-        width: 100%;
-        margin-top: 3%;
-    }
-
-    .titulopauloricardo h2{
-        font-size: 22px;
-        font-family: Papyrus, fantasy;
-        text-align: center;
-        color: white;
-        margin-top: 3%;
-        margin-bottom: 1%;
     
-    }
-
-    #videopadrepaulo{
-        width: 98%;
-        height: 100%;
-        margin-top: 3%;
-        margin-left: 1%;
-        border-radius: 10px;
-        border: 2px solid white;
-    }
 
 }
