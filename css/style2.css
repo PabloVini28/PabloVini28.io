@@ -180,4 +180,384 @@
         border: 2px solid white;
     }
 
+    .titulosantos{
+        font-size: 22px;
+        font-family: Papyrus, fantasy;
+        text-align: left;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .divisormariafrancisco{
+        margin-bottom: 15%;
+    }
+
+    #fotonossasenhora{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulosantamaria{
+        font-size: 22px;
+        color: white;
+        margin-right: 6.5%;
+    }
+
+    #textomaria{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    #divisormariajose{
+        margin-bottom: 15%;
+    }
+
+    #fotosaojose{
+        height: 100%;
+        width: 45%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulosaojose{
+        font-size: 22px;
+        color: white;
+        margin-right: 6.5%;
+    }
+
+    #textosaojose{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    #fotosaofrancisco{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulofrancisco{
+        font-size: 22px;
+        color: white;
+        
+    }
+
+    #textofrancisco{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+        
+    }
+
+    .divisorfranciscobento{
+        margin-top: 15%;
+    }
+
+    #fotosaobento{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulosaobento{
+        font-size: 22px;
+        color: white;
+        
+    }
+
+    #textobento{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisorbentoagostinho{
+        margin-top: 15%;
+    }
+
+    #fotosantoagostinho{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulosantoagostinho{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textoagostinho{
+
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisoragostinhotomas{
+        margin-top: 15%;
+    }
+
+    #fotosaotomas{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulotomas{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textotomas{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisortomasluzia{
+        margin-top: 15%;
+    }
+
+    #fotosantaluzia{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #tituloluzia{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textoluzia{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisorluziadavila{
+        margin-top: 15%;
+    }
+
+    #fotodavila{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulodavila{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textodavila{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisordavilasebastiao{
+        margin-top: 15%;
+    }
+
+    #fotosebastiao{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulosebastiao{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textosebastiao{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisorsebastiaoantonio{
+        margin-top: 15%;
+    }
+
+    #fotoantonio{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #tituloantonio{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textoantonio{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisorantoniojorge{
+        margin-top: 15%;
+    }
+
+    #fotojorge{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 1%;
+        margin-left: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulojorge{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textojorge{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .divisorjorgerita{
+        margin-top: 15%;
+    }
+
+    #fotorita{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #titulorita{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textorita{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    #rodape{
+        color:#022754;
+        margin-top: 5%;
+        text-align: center;
+        background-color: white;
+        width: 98%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+
 }
