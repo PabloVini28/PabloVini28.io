@@ -50,6 +50,35 @@
         
    </div>
 
+   <script>
+
+    function verificarNomeSalvo() {
+        var nomeSalvo = localStorage.getItem("nomeVisitante");
+        if (nomeSalvo) {
+            exibirNome(nomeSalvo);
+        } else {
+            solicitarNome();
+        }
+    }
+
+    function solicitarNome() {
+        var nome = prompt("Qual o seu nome ?");
+        if (nome) {
+            localStorage.setItem("nomeVisitante", nome);
+            exibirNome(nome);
+        }
+    }
+
+    function exibirNome(nome) {
+        document.getElementById("nomevisitante").innerHTML = "Olá, meu irmão/minha irmã, " + nome;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        verificarNomeSalvo();
+    });
+
+    </script>
+
    <div class="titulo">
        <h1>Seja Bem-Vindo</h1>
            <h2>Aqui você encontrará conhecimento sobre a Fé Católica</h2>
@@ -71,6 +100,9 @@
             Assim, a tradição na Igreja Católica é mais do que simplesmente um conjunto de práticas e ensinamentos do passado; é uma fonte de vida espiritual que continua a alimentar e enriquecer a fé dos católicos em todo o mundo.</p>
     </div>
 
+    <div>
+        <h1 id="rodape">Jovem Católico</h1>
+    </div>
     
 
 </body>

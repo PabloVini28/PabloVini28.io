@@ -1,0 +1,604 @@
+@media screen and (max-width: 950px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #022754;
+        border: 2px solid white;
+        width: 96%;
+        margin: 8px;
+        display: block;
+    }
+
+    .cabecalho p{
+        font-size: 11px;
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .espacamento h3 span{
+        margin-right: 3px;
+    }
+    
+    header h1 {
+        color: white;
+        font-size: 20px;
+        font-family: Papyrus, fantasy;
+        text-align: left;
+        width: 76%;
+        margin-top: 6%;
+        margin-left: 2%;
+        font-style: italic;
+        z-index: 1;
+        border-bottom: 2px solid white;
+    }
+
+    header h3 {
+        font-size: 19px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: left;
+        margin-left: 2%;
+        margin-top: 6%;
+        width: 96%;
+        position: relative; 
+        z-index: 1; 
+    }
+
+    header h4 {
+        font-size: 14px;
+        text-align: left;
+        width: 75%;
+        margin-left: 2%;
+        border-radius: 10%;
+        margin-top: 6%;
+        margin-bottom: 10%;
+        position: relative;
+        z-index: 1; 
+        color: white;
+        font-family: Papyrus, fantasy;
+        border-bottom: 2px solid white;
+    }
+
+    .dp-menu ul {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        border-bottom: 2px solid white;
+    }
+
+    .dp-menu li {
+        display: inline-block;
+        text-align: left;
+        margin-right: 4%;
+        margin-left: 3%;
+        margin-bottom: 1%;
+    }
+
+    .dp-menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        text-decoration: underline;
+        font-family: Papyrus,fantasy;    
+    }
+
+    .dp-menu a:hover {
+        color: rgb(253, 253, 253);
+    }
+
+    #nomevisitante{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        font-family: Papyrus, fantasy;
+        margin-top: 5%;
+    }
+
+    .titulo h1 {
+        text-align: center;
+        font-size: 33px;
+        font-family: Papyrus, fantasy;
+        color: white;
+        border-top: 2px solid white;
+        width: 100%;
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+
+    .titulo h2 {
+        font-size: 17px;
+        font-family: Papyrus, fantasy;
+        text-align: center;
+        color: white;
+        margin-top: -8%;
+        width: 100%;
+    }
+
+    .titulo p {
+        text-align: center;
+        color: white;
+        margin-left: 0%;
+        width: 100%;
+        font-family: Papyrus, fantasy;
+        font-size: 15px;
+        margin-top:1%;
+        border-bottom: 2px solid white;
+        margin-bottom: 3%;
+    }
+    
+    .textomaior h1{
+        font-size: 22px;
+        font-family: Papyrus, fantasy;
+        text-align: center;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+    
+    .textomaior p {
+        font-size: 15px;
+        width: 97%;
+        margin-left: 1.5%;
+        padding: 1%;
+        background-color: white;
+        border-radius: 1%;
+        
+    }
+
+    .tituloprincipal{
+        color: white;
+        text-align: center;
+        margin-top: 7%;
+        font-family: Papyrus, fantasy;
+    }
+
+    .bordaapostolo{
+        border-bottom: 2px solid white;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .divisor{
+        border-bottom: 2px solid white;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    #fotoapostolos{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #tituloceia{
+        font-size: 22px;
+        color: white;
+    }
+
+    #textoapostolos{
+        height: 60%;
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .titulosecundario{
+        color: white;
+        text-align: center;
+        margin-top: 7%;
+        font-family: Papyrus, fantasy;
+    }
+
+    #fotojesusthechosen{
+        height: 100%;
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px;
+        border: 2px solid white;
+        float: left;
+    }
+
+    #Apostolos{
+        text-align: center;
+        font-family: Papyrus, fantasy;
+        color: white;
+        font-size: 20px;
+    }
+
+    #fotopedro{
+
+        height: 50%;
+        width: 49%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 25%;
+        margin-right: 1%;
+        
+    }
+
+    #nomedepedro{
+        font-size: 30px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: center;
+        margin-top: -9%;
+    }
+
+    .barrahorizontalpedro{
+        border-bottom: 2px solid white;
+        width: 21%;
+        margin-left: 3%;
+        margin-top: -25%;
+    }
+
+    .barraverticalpedro{
+        
+        border-left: 2px solid white;
+        width: 22%;
+        margin-left: 3%;
+        margin-top: 0%;
+        height: 200px;
+        
+        
+    }
+
+    .barrahorizontalpedro2{
+        border-bottom: 2px solid white;
+        width: 31%;
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .textopedro{
+        width: 60%;
+        text-align: left;
+        padding: 1%;
+        margin-left: 35%;
+        margin-right: 2%;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: -20%;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 5%;
+        border-color: black;
+        border-top: 6px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    .ligadopedroandre{
+        
+        border-left: 2px solid white;
+        width: 22%;
+        margin-left: 65%;
+        margin-top: -3%;
+        margin-bottom: 5%;
+        height: 200px;
+    }
+
+    #fotoandre{
+            height: 50%;
+            width: 46%;
+            margin-bottom: 10%;
+            margin-left: 42%;
+            margin-right: 1%;
+            margin-top: 0.5%;
+    }
+
+    #nomedeandre{
+        font-size: 30px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: right;
+        margin-right: 23%;;
+        margin-top: -9%;
+    }
+
+    .barrahorizontalandre{
+        border-bottom: 2px solid white;
+        width: 30%;
+        margin-left: 11%;
+        margin-top: -25%;
+    }
+
+    .barraverticalandre{
+            
+            border-left: 2px solid white;
+            width: 22%;
+            margin-left: 11%;
+            margin-top: 0%;
+            height: 200px;
+    }
+
+    .textoandre{
+        width: 60%;
+        text-align: left;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 5%;
+        border-color: black;
+        border-top: 6px solid black;
+        border-left: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    .ligadoandrethiagomaior{
+            
+        border-left: 2px solid white;
+        margin-left: 11%;
+        margin-top: -4%;
+        height: 200px;
+    }
+
+    #fotojoao{
+        height: 50%;
+        width: 46%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 1%;
+        margin-top: 0.5%;
+    }
+
+    #nomedejoao{
+        font-size: 30px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: left;
+        margin-left: 20%;
+        margin-top: -9%;
+    }
+
+    .barrahorizontaljoao{
+        border-bottom: 2px solid white;
+        width: 30%;
+        margin-left: 57%;
+        margin-top: -20%;
+        
+    }
+
+    .barraverticaljoao{
+            
+        border-right: 2px solid white;
+        width: 22%;
+        margin-left: 65%;
+        margin-top: 0%;
+        height: 200px;
+    }
+
+    .textojoao{
+        width: 60%;
+        text-align: left;
+        padding: 1%;
+        margin-left: 35%;
+        margin-right: 2%;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 5%;
+        border-color: black;
+        border-top: 6px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    .ligadojoaothiago{
+            
+        border-left: 2px solid white;
+        margin-left: 65%;
+        margin-top: -4%;
+        height: 200px;
+    }
+
+    #fotothiagomaior{
+        
+        height: 50%;
+        width: 20%;
+        margin-bottom: 10%;
+        margin-left: 45%;
+        margin-right: 1%;
+        margin-top: 0.5%;
+        
+    }
+
+    #nomedethiagomaior{
+        font-size: 30px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: left;
+        margin-left: 44%;
+        margin-top: -9%;
+    }
+
+    .barrahorizontalthiagomaior{
+        border-bottom: 2px solid white;
+        width: 30%;
+        margin-left: 13%;
+        margin-top: -20%;
+    }
+
+    .barraverticalthiagomaior{
+            
+        border-right: 2px solid white;
+        width: 22%;
+        margin-left: -8.5%;
+        height: 200px;
+    }
+
+    .textothiagomaior{
+        width: 60%;
+        text-align: left;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 5%;
+        border-color: black;
+        border-top: 6px solid black;
+        border-left: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    .ligadothiagomatheus{
+            
+        border-left: 2px solid white;
+        margin-left: 13%;
+        margin-top: -4%;
+        height: 200px;
+    }
+
+    #fotomatheus{
+        
+        height: 50%;
+        width: 20%;
+        margin-bottom: 10%;
+        margin-left: 7%;
+        margin-right: 1%;
+        margin-top: 0.5%;
+        
+    }
+
+    #nomedematheus{
+        font-size: 30px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: left;
+        margin-left: 17%;
+        margin-top: -9%;
+    }
+    
+    .barrahorizontalmatheus{
+        border-bottom: 2px solid white;
+        width: 30%;
+        margin-left: 55%;
+        margin-top: -20%;
+    }
+
+    .barraverticalmatheus{
+            
+        border-right: 2px solid white;
+        width: 22%;
+        margin-left: 63%;
+        height: 200px;
+    }
+
+    .textomatheus{
+        width: 60%;
+        text-align: left;
+        padding: 1%;
+        margin-left: 33%;
+        margin-right: 2%;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 5%;
+        border-color: black;
+        border-top: 6px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+    .ligadomatheustome{
+            
+        border-left: 2px solid white;
+        margin-left: 83%;
+        margin-top: -3%;
+        height: 200px;
+    }
+
+    #fototome{
+        
+        height: 50%;
+        width: 20%;
+        margin-bottom: 10%;
+        margin-left: 40%;
+        margin-right: 1%;
+        margin-top: 0.5%;
+        
+    }
+
+    #nomedetome{
+        font-size: 30px;
+        color: white;
+        font-family: Papyrus, fantasy;
+        text-align: right;
+        margin-right: 23%;
+        margin-top: -9%;
+    }
+
+    .barrahorizontaltome{
+        border-bottom: 2px solid white;
+        width: 30%;
+        margin-left: 9%;
+        margin-top: -20%;
+    }
+
+    .barraverticaltome{
+            
+        border-right: 2px solid white;
+        width: 22%;
+        margin-left: -12.5%;
+        height: 200px;
+    }
+
+    .textotome{
+        width: 60%;
+        text-align: left;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 5%;
+        border-color: black;
+        border-top: 6px solid black;
+        border-left: 10px solid black;
+        border-bottom: 10px solid black;
+    }
+
+}
